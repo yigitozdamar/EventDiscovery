@@ -31,6 +31,9 @@
 		7FD0966729ED877800C3623A /* DestinationDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0966629ED877800C3623A /* DestinationDetailsViewModel.swift */; };
 		7FD0966A29EDA34100C3623A /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0966929EDA34100C3623A /* RestaurantDetailsView.swift */; };
 		7FD0966C29EDAB9900C3623A /* RestaurantDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0966B29EDAB9900C3623A /* RestaurantDetailsViewModel.swift */; };
+		7FD0966E29EEA3C200C3623A /* RestaurantPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0966D29EEA3C200C3623A /* RestaurantPhotosView.swift */; };
+		7FD0967029EEB87100C3623A /* RestaurantCarouselContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0966F29EEB87100C3623A /* RestaurantCarouselContainer.swift */; };
+		7FD0967329EEC82300C3623A /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0967229EEC82300C3623A /* UserDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,9 @@
 		7FD0966629ED877800C3623A /* DestinationDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDetailsViewModel.swift; sourceTree = "<group>"; };
 		7FD0966929EDA34100C3623A /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
 		7FD0966B29EDAB9900C3623A /* RestaurantDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewModel.swift; sourceTree = "<group>"; };
+		7FD0966D29EEA3C200C3623A /* RestaurantPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPhotosView.swift; sourceTree = "<group>"; };
+		7FD0966F29EEB87100C3623A /* RestaurantCarouselContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCarouselContainer.swift; sourceTree = "<group>"; };
+		7FD0967229EEC82300C3623A /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 		7F33DFEC29E8384800BE1D34 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				7FD0967129EEC81100C3623A /* User */,
 				7FD0966829EDA32E00C3623A /* Restaurants */,
 				7FD0966529ED876100C3623A /* PupularDestinations */,
 				7FD0966229ED50F700C3623A /* Destination */,
@@ -177,8 +184,18 @@
 				7F33DFEF29E8391F00BE1D34 /* PopularRestaurantsView.swift */,
 				7FD0966929EDA34100C3623A /* RestaurantDetailsView.swift */,
 				7FD0966B29EDAB9900C3623A /* RestaurantDetailsViewModel.swift */,
+				7FD0966D29EEA3C200C3623A /* RestaurantPhotosView.swift */,
+				7FD0966F29EEB87100C3623A /* RestaurantCarouselContainer.swift */,
 			);
 			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		7FD0967129EEC81100C3623A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7FD0967229EEC82300C3623A /* UserDetailsView.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +281,11 @@
 				7F33E00029E83CDE00BE1D34 /* TileModifier.swift in Sources */,
 				7F33DFFD29E83A1E00BE1D34 /* Category.swift in Sources */,
 				7F33DFEE29E838E700BE1D34 /* PopularDestinationsView.swift in Sources */,
+				7FD0967329EEC82300C3623A /* UserDetailsView.swift in Sources */,
 				7F33DFF029E8391F00BE1D34 /* PopularRestaurantsView.swift in Sources */,
 				7F67ADEB29E8996000D2A99D /* Place.swift in Sources */,
+				7FD0966E29EEA3C200C3623A /* RestaurantPhotosView.swift in Sources */,
+				7FD0967029EEB87100C3623A /* RestaurantCarouselContainer.swift in Sources */,
 				7F0F403B29E9DB3D00B40B39 /* ActivityIndicatorView.swift in Sources */,
 				7FD0966729ED877800C3623A /* DestinationDetailsViewModel.swift in Sources */,
 				7F5D782829E1A7BA0018CDC6 /* DiscoverView.swift in Sources */,

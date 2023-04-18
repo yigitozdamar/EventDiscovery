@@ -70,7 +70,7 @@ struct PopularDestinationDetailsView: View {
         ScrollView {
             if let photos = vm.destinationDetails?.photos {
                 DestinationHeaderContainer(imageNames: photos)
-                    .frame(height: 250)
+                    .frame(height: 350)
             }
 
             VStack(alignment: .leading) {
